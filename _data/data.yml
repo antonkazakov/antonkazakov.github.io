@@ -4,7 +4,7 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
@@ -91,7 +91,7 @@ education:
 experiences:
   title: Experiences
   info:
-    - role: Руководитель направления
+    - role: Руководитель направления Android разработки
       time: 2021 - Настоящее время
       company: Золотое Яблоко, Москва
       details: |
@@ -106,17 +106,20 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Руководитель направления Android разработки
+      time: 2017 - 2021
+      company: Альфа-Банк, Москва
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Управлял Android разработкой проекта Альфа-Мобайл и смежных проектов. 
+        Что удалось сделать мне и моей команде:
+          - Внедрили и настроили огромное количество процессов: от онбординга новых членов команды до карьерной модели их развития
+          - Масштабировали команду разработки приложения Альфа-Мобайл с 12 до 70 человек, не потеряв в качестве и скорости разработки
+          - Реструктуризация ЦК, вывод тех.лидов из команд разработки и их развитие
+          - Управление платформенной командой, в рамках которой, мы реализовали огромное количество сложных решений для ускорения разработки
+          - Управление релизной командой, оптимизация релизных циклов
+          - Разработка и поддержка Jenkins кластера + сопутствующей инфраструктуры для 120 разработчиков
+          - Разработка архитектуры решений ключевых проектов
+          - Полный редизайн приложения в 2020 и 1 место в рейтинге markswebb в 2021
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
