@@ -4,7 +4,7 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
@@ -27,31 +27,7 @@ sidebar:
   twitter:
   stack-overflow:
   codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  # pdf:
-    #languages:
-    #title: Languages
-    # info:
-    #  - idiom: English
-    #    level: Native
-
-    #  - idiom: French
-    # level: Professional
-
-    #   - idiom: Spanish
-    #     level: Professional
-
-  #  interests:
-  #   title: Interests
-  #    info:
-  #    - item: Climbing
-  #      link:
-
-  #    - item: Snowboarding
-  #      link:
-
-  #    - item: Cooking
-  #      link:
+  goodreads:
 
 career-profile:
   title: Career Profile
@@ -62,31 +38,6 @@ career-profile:
     penatibus et magnis dis parturient montes, nascetur ridiculus mus.
     Donec quam felis, ultricies nec, pellentesque eu.
     Second paragraph if required.
-education:
-  title: Education
-  info:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
 
 experiences:
   title: Experiences
@@ -95,19 +46,10 @@ experiences:
       time: 2021 - Настоящее время
       company: Золотое Яблоко, Москва
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        TBD
+
     - role: Руководитель направления Android разработки
-      time: 2017 - 2021
+      time: 2018 - 2021
       company: Альфа-Банк, Москва
       details: |
         Управлял Android разработкой проекта Альфа-Мобайл и смежных проектов. 
@@ -120,17 +62,37 @@ experiences:
           - Разработка и поддержка Jenkins кластера + сопутствующей инфраструктуры для 120 разработчиков
           - Разработка архитектуры решений ключевых проектов
           - Полный редизайн приложения в 2020 и 1 место в рейтинге markswebb в 2021
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+
+    - role: Android Разработчик
+      time: 2017 - 2018
+      company: Альфа-Банк, Москва
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Работал над проектом [Альфа-Мобайл](https://play.google.com/store/apps/details?id=ru.alfabank.mobile.android) в продуктовой команде:
+          - Участвовал в разработке первой версии дизайн системы ui-kit
+          - Разрабатывал разделы Счета и Карты, Рекомендации, Onboarding
+
+    - role: Android Разработчик
+      time: 2016 - 2017
+      company: Сбербанк, Москва
+      details: |
+        Работал над проектом [Сбербанк Онлайн](https://play.google.com/store/apps/details?id=ru.sberbankmobile) в продуктовой команде
+          - Разрабатывал раздел Платежи
+          - Участвовал в разработке in-house решения для написания UI тестов
+
+    - role: Android Разработчик
+      time: 2015 - 2016
+      company: Uvee Studio, Иннополис
+      details: |
+        Разрабатывал приложения в небольшой веб студии
+          - [Приложение](https://stride.one/projects/owocar) клон Uber
+          - [Приложение](https://stride.one/projects/sapron) для рынка строительной техники
+
+    - role: Android Разработчик
+      time: 2014 - 2015
+      company: Uvee Studio, Иннополис
+      details: |
+        Фрилансил на различных площадках, в основном [fl.ru](https://www.fl.ru/users/kazakovpro/portfolio/#/)
+        Разработал несколько приложений: приложение для сервиса такси, сервиса знакомств, магазина одежды и [другие](https://play.google.com/store/apps/details?id=com.official.electronics.lite)
 
 certifications:
   title: Certifications
@@ -172,6 +134,36 @@ certifications:
         Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
         Praesent felis nibh, eleifend id eleifend id, dictum id enim.
         Praesent venenatis erat non augue suscipit consectetur.
+
+education:
+  title: Образование
+  info:
+    - university: КНИТУ им. А. Н. ТУПОЛЕВА - КАИ
+      time: 2012 - 2014
+      details: |
+        Второе высшее образование по специальности "Переводчик в сфере профессиональных коммуникаций"
+    - degree: Магистратура
+      university: КНИТУ им. А. Н. ТУПОЛЕВА - КАИ
+      time: 2014 - 2016
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Бакалавриат
+      university: КНИТУ им. А. Н. ТУПОЛЕВА - КАИ
+      time: 2010 - 2014
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
 
 projects:
   title: Projects
